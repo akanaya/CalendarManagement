@@ -1,0 +1,26 @@
+
+{
+    "twentyOnePointsApp": {
+        "garde" : {
+            "home": {
+                "title": "Gardes",
+                "createLabel": "Créer un nouveau Garde",
+                "createOrEditLabel": "Créer ou éditer un Garde",
+                "search": "Recherche pour Garde"
+            },
+            "created": "Un nouveau Garde a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Garde avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Garde avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Garde {{ id }} ?"
+            },
+            "detail": {
+                "title": "Garde"
+            },
+            "date": "Date",
+            "amount": "Amount",
+            "seller_residant": "Seller Residant",
+            "buyer_resident": "Buyer Resident"
+        }
+    }
+}

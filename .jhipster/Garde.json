@@ -1,0 +1,36 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "date",
+            "fieldType": "LocalDate",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "amount",
+            "fieldType": "Double",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "seller_residant",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "buyer_resident",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20190218152328",
+    "dto": "no",
+    "searchEngine": "elasticsearch",
+    "service": "serviceImpl",
+    "entityTableName": "garde",
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination"
+}
