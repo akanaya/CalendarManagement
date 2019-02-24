@@ -274,7 +274,7 @@ a {
     display: inline-block;
     width: 347px;
     height: 347px !important;
-    background: url('C:/DEV/CalendarHipster/CalenderManagement/src/main/webapp/content/images/residants.png') no-repeat center top;
+    background: url('../images/residants.png') no-repeat center top;
     background-size: contain;
 }
 
@@ -285,7 +285,7 @@ a {
     only screen and (min-resolution: 192dpi),
     only screen and (min-resolution: 2dppx) {
     .heart {
-        background: url('C:/DEV/CalendarHipster/CalenderManagement/src/main/webapp/content/images/residants.png') no-repeat center top;
+        background: url('../images/residants.png') no-repeat center top;
         background-size: contain;
     }
 }
